@@ -1,0 +1,21 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.select-none {
+  user-select: none;
+}
+
+.CodeMirror {
+  @apply border border-black;
+}
+
+.code {
+  @apply border border-gray-400 rounded bg-gray-300 text-blue-700 px-1 text-sm;
+}
+
+code {
+  @apply code;
+}

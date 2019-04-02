@@ -7,6 +7,8 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@types/codemirror": "0.0.72",
+    "codemirror": "^5.45.0",
     "core-js": "^2.6.5",
     "vue": "^2.6.6",
     "vue-class-component": "^6.0.0",
@@ -18,13 +20,19 @@
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-typescript": "^3.5.0",
     "@vue/cli-service": "^3.5.0",
+    "tailwindcss": "^1.0.0-beta.4",
     "typescript": "^3.2.1",
     "vue-template-compiler": "^2.5.21"
   },
   "postcss": {
     "plugins": {
-      "autoprefixer": {}
+      "autoprefixer": {},
+      "tailwindcss": {}
     }
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "semi": false
   },
   "browserslist": [
     "> 1%",
