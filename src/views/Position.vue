@@ -7,7 +7,7 @@
       <h1 class="text-2xl font-bold">Forêt</h1>
       <hr class="border-b border-gray-500">
       <h2 class="text-xl mb-2">Description</h2>
-      <p>Vous êtes parti dans la forêt chercher des pommes. Ce puzzle vous donne une forêt représentée par un tableau 2D de caractères et va périodiquement appeler une fonction pour vous informer de comment bouge le 🏃. Le nombre de 🍎 rammassées est le chiffre du code final. Les 🌳 ne sont pas traversables, le 🏃 ne bouge pas s'il essaye de les enjamber. N'oubliez pas de vérifier que le 🏃 ne sorte pas de la forêt !</p>
+      <p>Vous êtes parti dans la forêt chercher des pommes. Ce puzzle vous donne une forêt représentée par un tableau 2D de caractères et va périodiquement appeler une fonction pour vous informer de comment bouge le 🏃. Le nombre de 🍎 rammassées est le chiffre du code final, toujours entre 0 et 9. Les 🌳 ne sont pas traversables, le 🏃 ne dois pas bouger s'il essaye de les enjamber. N'oubliez pas de vérifier que le 🏃 ne sorte pas de la forêt !</p>
       <p>
         Malheureusement pour des raisons techniques les erreurs n'apparaissent pas dans la console si elles arrivent dans
         <code>puzzle.onBouge()</code>... Elles apparaissent dans la vraie console du navigateur par contre.
@@ -79,7 +79,7 @@
         <br>Example:
       </p>
       <p class="code">
-        <br>...
+        ...
         <br>puzzle.fini -> true
         <br>puzzle.solution = 6 -> victoire !
         <br>...
