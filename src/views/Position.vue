@@ -94,7 +94,8 @@ import Editor from "@/components/Editor.vue"
 import Console, { Logger } from "@/components/Console.vue"
 import Puzzle from "@/puzzles/position"
 
-const defaultCode = `// C'est parti !`
+const defaultCode = `// C'est parti !
+console.log(puzzle.jolieMap())`
 
 @Component({
   components: {
